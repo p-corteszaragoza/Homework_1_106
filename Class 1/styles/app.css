@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #dadbdc;
+    font-family:Arial, Helvetica, sans-serif;
+}
+button {
+    margin-top: -2px;
+}
+h1 {
+    padding: 2rem 0;
+    color: white;
+    text-align: center;
+}
+h3 {
+    margin: auto;
+    width: 60%;
+}
+h6 {
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+button{
+    margin: auto 2rem;
+}
+i{
+   font-size: 1.5rem;
+    color:#0d6efd;
+    margin: auto 2rem;
+}
+#headerContainer {
+    height: 100%;
+    padding: 4rem 8rem;
+    text-align: center;
+    color: white;
+    background-color: #609beb;  
+}
+
+.btn-danger{
+    float: inline-end;
+}
+.line {
+    border-left: .3rem solid #609beb;
+    height: 5rem;
+}
+
+.line-header {
+    border-bottom: .3rem solid white;
+    border-right: .3rem solid white;
+    height: 100%;
+}
+.card:hover {
+    background-color: #C9DDEA;
+}
+.task {
+    display: flex;
+    flex-flow: row wrap;
+}
+#todoContainer{
+    margin: 5rem;
+    width: 60%;
+}
+.capture-form{
+    height: 200px;
+    flex: 1 1 auto;
+    padding: 3rem 3rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color: rgb(197, 197, 197);
+    padding: 2rem 2rem;
+    text-align: center;
+}
+#formContainer{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+  
+}  /*width: 100%;
+    background-color: #C9DDEA;
+    padding: 5rem 5rem;*/
+.counter-task{
+    margin: auto;
+}
